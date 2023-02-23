@@ -1,0 +1,72 @@
+:root{
+    --light-font: #202731;
+    --light-bg-blue: #9FD8F7;
+    --light-bg-black: #dff1ff;
+    --light-bg-white: #e8e9ea;
+
+
+    --dark-font: #ffffff;
+    --dark-bg-blue: #001220;
+    --dark-bg-black: #2072ED;
+    --dark-bg-grey: --light-font;
+
+    --font-family: 'Prompt', sans-serif;
+}
+
+body {
+    margin-top: 7%;
+    background: #202731 !important;
+    font-family: 'Prompt', sans-serif;
+}
+
+
+
+td,th{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /*margin: 5px;*/
+    border: 6px solid #202731;
+    background-color: var(--light-bg-blue);
+    border-radius: 60%;
+    text-align: center;
+    border-bottom: 3px solid #2072ED;
+}
+
+
+
+#cim{
+   margin: 5px;
+}
+
+#chart_canvas{
+    width: 600px;
+    margin-left: 150px;
+    padding-top: 100px;
+}
+
+#content {
+    display: flex;
+    margin: 0px 150px 0px 150px;
+}
+
+@media screen and (max-width: 600px) {
+    #content {
+        display: block;
+        width: 100vw;
+        padding: 0;
+        margin: 0;
+    }
+    table {
+        width: 100vw;
+    }
+    #chart_canvas{
+        width: 100vw;
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+    #checkbox{
+        margin: 0;
+    }
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statisztika</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;900&display=swap" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div id="content">
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="3">
+                        <h1 id="cim">Statisztikák</h1>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="stat1"></td>
+                    <td id="stat2"></td>
+                </tr>
+                <tr>
+                    <td id="stat3"></td>
+                    <td id="stat4"></td>
+                </tr>
+                <tr>
+                    <td id="stat5"></td>
+                    <td id="stat6"></td>
+                </tr>
+                <tr>
+                    <td id="stat7"></td>
+                    <td id="stat8"></td>
+                </tr>
+                <tr>
+                    <td id="stat9">9</td>
+                    <td id="stat10">10</td>
+                </tr>
+                <tr>
+                    <td id="stat11">11</td>
+                    <td id="stat12">12</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="chart_canvas">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    
+    <div id="checkbox">
+        <label for="auto_refresh">Auto refresh</label>
+        <input type="checkbox" id="auto_refresh" checked>
+    </div>
+    <script src="main.js"></script>
+    <script src="chart.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+{
+    "Huncutpicur": {
+        "0": {
+            "words": {
+                "0": {
+                    "word": "kutya",
+                    "definition": "dog"
+                },
+                "1": {
+                    "word": "cica",
+                    "definition": "cat"
+                }
+            }
+        },
+        "1": {
+            "words": {
+                "0": {
+                    "word": "kocsi",
+                    "definition": "car"
+                },
+                "1": {
+                    "word": "fa",
+                    "definition": "tree"
+                },
+                "2": {
+                    "word": "kocsi",
+                    "definition": "car"
+                },
+                "3": {
+                    "word": "fa",
+                    "definition": "tree"
+                },
+                "4": {
+                    "word": "kocsi",
+                    "definition": "car"
+                },
+                "5": {
+                    "word": "fa",
+                    "definition": "tree"
+                },
+                "6": {
+                    "word": "kocsi",
+                    "definition": "car"
+                },
+                "7": {
+                    "word": "fa",
+                    "definition": "tree"
+                },
+                "8": {
+                    "word": "kocsi",
+                    "definition": "car"
+                }
+            }
+        },
+        "2": {
+            "words": {
+                "0": {
+                    "word": "kocsi",
+                    "definition": "car"
+                },
+                "1": {
+                    "word": "egér",
+                    "definition": "mouse"
+                },
+                "2": {
+                    "word": "egér",
+                    "definition": "mouse"
+                },
+                "3": {
+                    "word": "kártya",
+                    "definition": "card"
+                }
+            }
+        }
+    }
+}
